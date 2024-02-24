@@ -1,5 +1,5 @@
 import fsp from "fs/promises";
-import { SongInfo } from "./controllers/songController";
+import { SongInfo } from "./controllers/songControllers";
 import { Response } from "express";
 
 async function getData() {
